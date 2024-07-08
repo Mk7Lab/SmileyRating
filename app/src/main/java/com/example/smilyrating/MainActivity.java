@@ -1,6 +1,7 @@
 package com.example.smilyrating;
 
 import android.os.Bundle;
+import com.exampe.smilyrating.R;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;

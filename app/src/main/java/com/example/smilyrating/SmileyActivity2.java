@@ -1,5 +1,4 @@
 package com.example.smilyrating;
-
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -8,6 +7,7 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.exampe.smilyrating.R;
 import com.hsalf.smileyrating.SmileyRating;
 
 public class SmileyActivity2 extends AppCompatActivity {

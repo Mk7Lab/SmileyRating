@@ -3,6 +3,7 @@ package com.example.smilyrating;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import com.exampe.smilyrating.R;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;

@@ -10,6 +10,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+import com.exampe.smilyrating.R;
 
 import com.hsalf.smileyrating.SmileyRating;
 import com.hsalf.smileyrating.helper.SmileyActiveIndicator;
