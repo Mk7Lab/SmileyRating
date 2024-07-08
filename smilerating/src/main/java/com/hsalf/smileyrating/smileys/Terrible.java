@@ -21,7 +21,7 @@ public class Terrible extends Smiley {
         );
         setup(
                 getClass().getSimpleName(),
-                Color.parseColor("#f29a68"),
+                Color.parseColor("#4d4d4d"),
                 Color.parseColor("#353431")
         );
     }
