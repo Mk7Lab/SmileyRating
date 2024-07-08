@@ -2,9 +2,9 @@ apply plugin: 'com.android.library'
 apply plugin: 'maven-publish'
 
 ext {
-    PUBLISH_GROUP_ID = 'com.github.sujithkanna'
+    PUBLISH_GROUP_ID = 'com.mk7lab.simlely'
     PUBLISH_ARTIFACT_ID = 'smileyrating'
-    PUBLISH_VERSION = '1.1.1'
+    PUBLISH_VERSION = '1.1.2'
 }
 
 android {
@@ -38,4 +38,8 @@ publishing {
             }
         }
     }
+}
+
+tasks.withType(JavaCompile) {
+    options.compilerArgs << "-Xlint:deprecation" << "-Xlint:unchecked"
 }
