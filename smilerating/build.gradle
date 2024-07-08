@@ -4,7 +4,7 @@ apply plugin: 'maven-publish'
 ext {
     PUBLISH_GROUP_ID = 'com.mk7lab.simlely'
     PUBLISH_ARTIFACT_ID = 'smileyrating'
-    PUBLISH_VERSION = '1.1.2'
+    PUBLISH_VERSION = '1.1.3'
 }
 
 android {
