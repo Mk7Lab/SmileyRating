@@ -2,7 +2,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'maven-publish'
 
 ext {
-    PUBLISH_GROUP_ID = 'com.mk7lab.smilyfeedback'
+    PUBLISH_GROUP_ID = 'com.github.sujithkanna'
     PUBLISH_ARTIFACT_ID = 'smileyrating'
     PUBLISH_VERSION = '1.1.1'
 }
