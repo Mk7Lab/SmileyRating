@@ -46,7 +46,7 @@ public class SmileRating extends BaseRating {
     private Face[] mFaces = new Face[SMILES_LIST.length];
     private Map<Integer, Point> mTouchPoints = new HashMap<>();
     private float mSmileGap;
-    private boolean mShowLine = true;
+    private boolean mShowLine = false;
     private float mMainSmileyTransformaFraction = 1;
     private Paint mPathPaint = new Paint();
     private Paint mBackgroundPaint = new Paint();
@@ -126,7 +126,7 @@ public class SmileRating extends BaseRating {
                     mTextSelectedColor);
             mTextNonSelectedColor = a.getColor(R.styleable.SmileRating_textNonSelectionColor,
                     mTextNonSelectedColor);
-            mShowLine = a.getBoolean(R.styleable.SmileRating_showLine, true);
+            mShowLine = a.getBoolean(R.styleable.SmileRating_showLine, false);
             mIndicator = a.getBoolean(R.styleable.SmileRating_isIndicator, false);
             a.recycle();
         }

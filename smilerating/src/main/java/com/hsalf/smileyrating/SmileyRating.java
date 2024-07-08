@@ -38,7 +38,7 @@ public class SmileyRating extends View implements TouchActiveIndicator {
     private static final float TOTAL_DIVIDER_SPACE_SCALE = .25f;
     private static final float TEXT_SIZE_SCALE_FROM_SMILEY_SIZE = .2f;
     private static final float CONNECTOR_LINE_SCALE_FROM_SMILEY_SIZE = .02f;
-    private static final int SHADOW_COLOR = Color.argb(60, Color.red(Color.BLACK),
+    private static final int SHADOW_COLOR = Color.argb(120, Color.red(Color.BLACK),
             Color.green(Color.BLACK), Color.blue(Color.BLACK));
 
     private static final ArgbEvaluator ARGB_EVALUATOR = new ArgbEvaluator();
